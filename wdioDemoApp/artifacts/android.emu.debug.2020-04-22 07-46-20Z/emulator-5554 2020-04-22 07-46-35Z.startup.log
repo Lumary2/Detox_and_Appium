@@ -1,0 +1,225 @@
+--------- beginning of main
+04-22 09:46:26.466 10902 10902 I com.wdiodemoap: Not late-enabling -Xcheck:jni (already on)
+04-22 09:46:26.503 10902 10902 E com.wdiodemoap: Unknown bits set in runtime_flags: 0x8000
+04-22 09:46:26.504 10902 10902 W com.wdiodemoap: Unexpected CPU variant for X86 using defaults: x86
+--------- beginning of system
+04-22 09:46:26.553 10902 10902 W ActivityThread: Package uses different ABI(s) than its instrumentation: package[com.wdiodemoapp]: x86, null instrumentation[com.wdiodemoapp.test]: null, null
+04-22 09:46:26.556 10902 10902 I com.wdiodemoap: The ClassLoaderContext is a special shared library.
+04-22 09:46:26.556 10902 10902 I com.wdiodemoap: The ClassLoaderContext is a special shared library.
+04-22 09:46:26.751 10902 10902 I com.wdiodemoap: The ClassLoaderContext is a special shared library.
+04-22 09:46:26.751 10902 10902 I com.wdiodemoap: The ClassLoaderContext is a special shared library.
+04-22 09:46:26.895 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Landroid/app/Activity;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+04-22 09:46:26.895 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/app/Instrumentation;->execStartActivity(Landroid/content/Context;Landroid/os/IBinder;Landroid/os/IBinder;Ljava/lang/String;Landroid/content/Intent;ILandroid/os/Bundle;)Landroid/app/Instrumentation$ActivityResult; (greylist, linking, allowed)
+04-22 09:46:26.960 10902 10902 I MonitoringInstr: Instrumentation started!
+04-22 09:46:26.963 10902 10902 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk", zip file "/data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk"],nativeLibraryDirectories=[/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86, /data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk!/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk!/lib/x86, /system/lib, /system/product/lib]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk", zip file "/data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk"],nativeLibraryDirectories=[/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86, /data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk!/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk!/lib/x86, /system/lib, /system/product/lib]]]'
+04-22 09:46:26.969 10902 10902 D SoLoader: init start
+04-22 09:46:26.969 10902 10902 D SoLoader: adding system library source: /vendor/lib
+04-22 09:46:26.970 10902 10902 D SoLoader: adding system library source: /system/lib
+04-22 09:46:26.971 10902 10902 D SoLoader: adding application source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86 flags = 0]
+04-22 09:46:26.975 10902 10902 D SoLoader: adding backup source from : com.facebook.soloader.ApkSoSource[root = /data/data/com.wdiodemoapp/lib-main flags = 1]
+04-22 09:46:26.975 10902 10902 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /system/lib flags = 2]
+04-22 09:46:26.975 10902 10902 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /vendor/lib flags = 2]
+04-22 09:46:26.975 10902 10902 D SoLoader: Preparing SO source: com.facebook.soloader.DirectorySoSource[root = /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86 flags = 0]
+04-22 09:46:26.975 10902 10902 D SoLoader: Preparing SO source: com.facebook.soloader.ApkSoSource[root = /data/data/com.wdiodemoapp/lib-main flags = 1]
+04-22 09:46:26.979 10902 10902 V fb-UnpackingSoSource: locked dso store /data/user/0/com.wdiodemoapp/lib-main
+04-22 09:46:26.987 10902 10902 V fb-UnpackingSoSource: deps mismatch on deps store: regenerating
+04-22 09:46:26.987 10902 10902 V fb-UnpackingSoSource: so store dirty: regenerating
+04-22 09:46:27.053 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libc++_shared.so: deferring to libdir
+04-22 09:46:27.053 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libfb.so: deferring to libdir
+04-22 09:46:27.053 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libfolly_futures.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libfolly_json.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libglog.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libglog_init.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libimagepipeline.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libjsc.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libjscexecutor.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libjsinspector.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libnative-filters.so: deferring to libdir
+04-22 09:46:27.054 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libnative-imagetranscoder.so: deferring to libdir
+04-22 09:46:27.055 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libreactnativejni.so: deferring to libdir
+04-22 09:46:27.055 10902 10902 D ApkSoSource: not allowing consideration of lib/x86/libyoga.so: deferring to libdir
+04-22 09:46:27.056 10902 10902 V fb-UnpackingSoSource: regenerating DSO store com.facebook.soloader.ApkSoSource
+04-22 09:46:27.057 10902 10902 V fb-UnpackingSoSource: Finished regenerating DSO store com.facebook.soloader.ApkSoSource
+04-22 09:46:27.057 10902 10902 V fb-UnpackingSoSource: starting syncer worker
+04-22 09:46:27.068 10902 10902 V fb-UnpackingSoSource: releasing dso store lock for /data/user/0/com.wdiodemoapp/lib-main (from syncer thread)
+04-22 09:46:27.068 10902 10902 V fb-UnpackingSoSource: not releasing dso store lock for /data/user/0/com.wdiodemoapp/lib-main (syncer thread started)
+04-22 09:46:27.068 10902 10902 D SoLoader: init finish: 4 SO sources prepared
+04-22 09:46:27.068 10902 10902 D SoLoader: init exiting
+04-22 09:46:27.080 10902 10902 I PictureViewFactory: Loading com.google.android.webview version 80.0.3987.162 (code 398716213)
+04-22 09:46:27.142 10902 10902 I cr_LibraryLoader: Loaded native library version number "80.0.3987.162"
+04-22 09:46:27.229 10902 10902 E chromium: [ERROR:filesystem_posix.cc(62)] mkdir /data/user/0/com.wdiodemoapp/cache/PictureView/Crashpad: No such file or directory (2)
+04-22 09:46:27.298 10902 10962 W chromium: [WARNING:dns_config_service_posix.cc(341)] Failed to read DnsConfig.
+04-22 09:46:27.345 10902 10902 I MonitoringInstr: No JSBridge.
+04-22 09:46:27.361 10902 10922 I MonitoringInstr: Setting context classloader to 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk", zip file "/data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk"],nativeLibraryDirectories=[/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86, /data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk!/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk!/lib/x86, /system/lib, /system/product/lib]]]', Original: 'dalvik.system.PathClassLoader[DexPathList[[zip file "/system/framework/android.test.runner.jar", zip file "/system/framework/android.test.mock.jar", zip file "/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk", zip file "/data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk"],nativeLibraryDirectories=[/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86, /data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk!/lib/x86, /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/base.apk!/lib/x86, /system/lib, /system/product/lib]]]'
+04-22 09:46:27.396 10902 10922 I UsageTrackerFacilitator: Usage tracking enabled
+04-22 09:46:27.404 10902 10922 I TestRequestBuilder: Scanning classpath to find tests in paths [/data/app/com.wdiodemoapp.test-QfKdzUZ5MYKidWCwHAdrxQ==/base.apk]
+04-22 09:46:27.408 10902 10922 W com.wdiodemoap: Opening an oat file without a class loader. Are you using the deprecated DexFile APIs?
+04-22 09:46:27.704 10902 10922 D TestExecutor: Adding listener androidx.test.internal.runner.listener.LogRunListener
+04-22 09:46:27.705 10902 10922 D TestExecutor: Adding listener androidx.test.internal.runner.listener.InstrumentationResultPrinter
+04-22 09:46:27.705 10902 10922 D TestExecutor: Adding listener androidx.test.internal.runner.listener.ActivityFinisherRunListener
+04-22 09:46:27.706 10902 10922 I TestRunner: run started: 1 tests
+04-22 09:46:27.710 10902 10922 I TestRunner: started: runDetoxTests(com.wdiodemoapp.DetoxTest)
+04-22 09:46:27.713 10902 10902 I MonitoringInstr: Activities that are still in CREATED to STOPPED: 0
+04-22 09:46:27.731 10902 10902 W ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@b9af52a
+04-22 09:46:27.851 10902 10980 D libEGL  : Emulator has host GPU support, qemu.gles is set to 1.
+04-22 09:46:27.842 10902 10902 W RenderThread: type=1400 audit(0.0:11305): avc: denied { write } for name="property_service" dev="tmpfs" ino=6797 scontext=u:r:untrusted_app_27:s0:c205,c259,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=0
+04-22 09:46:27.861 10902 10980 W libc    : Unable to set property "qemu.gles" to "1": connection failed; errno=13 (Permission denied)
+04-22 09:46:27.864 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: PRE_ON_CREATE
+04-22 09:46:27.875 10902 10980 D libEGL  : loaded /vendor/lib/egl/libEGL_emulation.so
+04-22 09:46:27.883 10902 10980 D libEGL  : loaded /vendor/lib/egl/libGLESv1_CM_emulation.so
+04-22 09:46:27.900 10902 10980 D libEGL  : loaded /vendor/lib/egl/libGLESv2_emulation.so
+04-22 09:46:27.975 10902 10902 D SoLoader: About to load: libjscexecutor.so
+04-22 09:46:27.975 10902 10902 D SoLoader: libjscexecutor.so not found on /data/data/com.wdiodemoapp/lib-main
+04-22 09:46:27.975 10902 10902 D SoLoader: libjscexecutor.so found on /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86
+04-22 09:46:27.975 10902 10902 D SoLoader: Not resolving dependencies for libjscexecutor.so
+04-22 09:46:27.983 10902 10902 D JavaScriptCore.Version: 245459.0.0
+04-22 09:46:27.987 10902 10902 D SoLoader: Loaded: libjscexecutor.so
+04-22 09:46:27.988 10902 10902 D ReactNative: ReactInstanceManager.ctor()
+04-22 09:46:27.988 10902 10902 D SoLoader: init exiting
+04-22 09:46:28.031 10902 10902 D NetworkSecurityConfig: No Network Security Config specified, using platform default
+04-22 09:46:28.035 10902 10902 W com.wdiodemoap: Accessing hidden method Ldalvik/system/CloseGuard;->get()Ldalvik/system/CloseGuard; (greylist,core-platform-api, reflection, allowed)
+04-22 09:46:28.035 10902 10902 W com.wdiodemoap: Accessing hidden method Ldalvik/system/CloseGuard;->open(Ljava/lang/String;)V (greylist,core-platform-api, reflection, allowed)
+04-22 09:46:28.035 10902 10902 W com.wdiodemoap: Accessing hidden method Ldalvik/system/CloseGuard;->warnIfOpen()V (greylist,core-platform-api, reflection, allowed)
+04-22 09:46:28.059 10902 10902 D ReactNative: ReactInstanceManager.createReactContextInBackground()
+04-22 09:46:28.059 10902 10902 D ReactNative: ReactInstanceManager.recreateReactContextInBackgroundInner()
+04-22 09:46:28.124 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+04-22 09:46:28.125 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+04-22 09:46:28.138 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: CREATED
+04-22 09:46:28.143 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: STARTED
+04-22 09:46:28.153 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: RESUMED
+04-22 09:46:28.207 10902 10902 W unknown:ReactNative: Packager connection already open, nooping.
+04-22 09:46:28.223 10902 10977 D HostConnection: HostConnection::get() New Host Connection established 0xdf32f410, tid 10977
+04-22 09:46:28.231 10902 10977 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+04-22 09:46:28.233 10902 10977 W OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+04-22 09:46:28.235 10902 10977 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 0 0
+04-22 09:46:28.235 10902 10977 D EGL_emulation: eglCreateContext: 0xdf31a9c0: maj 3 min 0 rcv 3
+04-22 09:46:28.237 10902 10977 D EGL_emulation: eglMakeCurrent: 0xdf31a9c0: ver 3 0 (tinfo 0xdf30faf0)
+04-22 09:46:28.263 10902 10977 W Gralloc3: mapper 3.x is not supported
+04-22 09:46:28.265 10902 10977 D HostConnection: createUnique: call
+04-22 09:46:28.265 10902 10977 D HostConnection: HostConnection::get() New Host Connection established 0xdf32fa50, tid 10977
+04-22 09:46:28.265 10902 10977 D HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_YUV420_888_to_NV21 ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_gles_max_version_3_0 
+04-22 09:46:28.266 10902 10977 D eglCodecCommon: allocate: Ask for block of size 0x1000
+04-22 09:46:28.266 10902 10977 D eglCodecCommon: allocate: ioctl allocate returned offset 0x3ff801000 size 0x2000
+04-22 09:46:28.280 10902 10977 D EGL_emulation: eglMakeCurrent: 0xdf31a9c0: ver 3 0 (tinfo 0xdf30faf0)
+04-22 09:46:28.288 10902 10977 D eglCodecCommon: setVertexArrayObject: set vao to 0 (0) 1 0
+04-22 09:46:28.424 10902 10977 D EGL_emulation: eglMakeCurrent: 0xdf31a9c0: ver 3 0 (tinfo 0xdf30faf0)
+04-22 09:46:28.484 10902 10977 D EGL_emulation: eglMakeCurrent: 0xdf31a9c0: ver 3 0 (tinfo 0xdf30faf0)
+04-22 09:46:28.501 10902 10902 D ReactNative: ReactInstanceManager.onJSBundleLoadedFromServer()
+04-22 09:46:28.502 10902 10902 D ReactNative: ReactInstanceManager.recreateReactContextInBackground()
+04-22 09:46:28.503 10902 10902 D ReactNative: ReactInstanceManager.runCreateReactContextOnNewThread()
+04-22 09:46:28.523 10902 10994 D SoLoader: About to load: libreactnativejni.so
+04-22 09:46:28.523 10902 10994 D SoLoader: libreactnativejni.so not found on /data/data/com.wdiodemoapp/lib-main
+04-22 09:46:28.523 10902 10994 D SoLoader: libreactnativejni.so found on /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86
+04-22 09:46:28.523 10902 10994 D SoLoader: Not resolving dependencies for libreactnativejni.so
+04-22 09:46:28.524 10902 10994 D SoLoader: Loaded: libreactnativejni.so
+04-22 09:46:28.524 10902 10994 D SoLoader: About to load: libfb.so
+04-22 09:46:28.525 10902 10994 D SoLoader: libfb.so not found on /data/data/com.wdiodemoapp/lib-main
+04-22 09:46:28.527 10902 10994 D SoLoader: libfb.so found on /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86
+04-22 09:46:28.528 10902 10994 D SoLoader: Not resolving dependencies for libfb.so
+04-22 09:46:28.528 10902 10994 D SoLoader: About to load: libfb.so
+04-22 09:46:28.528 10902 10994 D SoLoader: libfb.so not found on /data/data/com.wdiodemoapp/lib-main
+04-22 09:46:28.528 10902 10994 D SoLoader: libfb.so found on /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86
+04-22 09:46:28.528 10902 10994 D SoLoader: Not resolving dependencies for libfb.so
+04-22 09:46:28.528 10902 10994 I com.wdiodemoap: Thread[26,tid=10994,Native,Thread*=0xdbe38c00,peer=0x14088058,"create_react_context"] recursive attempt to load library "/data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86/libfb.so"
+04-22 09:46:28.528 10902 10994 D SoLoader: Loaded: libfb.so
+04-22 09:46:28.528 10902 10994 D SoLoader: Loaded: libfb.so
+04-22 09:46:28.530 10902 10994 D ReactNative: ReactInstanceManager.createReactContext()
+04-22 09:46:28.550 10902 10996 I Detox   : Detox thread starting (com.wix.detox.manager)
+04-22 09:46:28.553 10902 10996 I DetoxManager: DetoxServerUrl: ws://10.0.2.2:52411
+04-22 09:46:28.553 10902 10996 I DetoxManager: DetoxSessionId: bcf3deac-a2b5-75cf-06fd-f38868c7e5d1
+04-22 09:46:28.607 10902 10913 I com.wdiodemoap: Background young concurrent copying GC freed 67421(5160KB) AllocSpace objects, 6(200KB) LOS objects, 72% free, 2325KB/8469KB, paused 4.856ms total 102.419ms
+04-22 09:46:28.654 10902 10994 D ReactNative: Initializing React Xplat Bridge.
+04-22 09:46:28.658 10902 10994 D ReactNative: Initializing React Xplat Bridge before initializeBridge
+04-22 09:46:28.663 10902 10994 D ReactNative: Initializing React Xplat Bridge after initializeBridge
+04-22 09:46:28.663 10902 10994 D ReactNative: CatalystInstanceImpl.runJSBundle()
+04-22 09:46:28.677 10902 10998 D ReactNative: ReactInstanceManager.setupReactContext()
+04-22 09:46:28.677 10902 10998 D ReactNative: CatalystInstanceImpl.initialize()
+04-22 09:46:28.678 10902 10902 W unknown:ReactNative: Packager connection already open, nooping.
+04-22 09:46:28.681 10902 10998 D ReactNative: ReactInstanceManager.attachRootViewToInstance()
+04-22 09:46:28.750 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+04-22 09:46:28.751 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+04-22 09:46:28.753 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+04-22 09:46:28.754 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+04-22 09:46:28.756 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+04-22 09:46:28.758 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+04-22 09:46:28.758 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+04-22 09:46:28.766 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+04-22 09:46:28.770 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+04-22 09:46:28.771 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+04-22 09:46:28.772 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+04-22 09:46:28.773 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+04-22 09:46:28.785 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+04-22 09:46:28.786 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+04-22 09:46:28.787 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+04-22 09:46:28.789 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+04-22 09:46:28.797 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+04-22 09:46:28.799 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+04-22 09:46:28.799 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+04-22 09:46:28.800 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+04-22 09:46:28.800 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+04-22 09:46:28.801 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+04-22 09:46:28.802 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+04-22 09:46:28.802 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+04-22 09:46:28.802 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+04-22 09:46:28.803 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+04-22 09:46:28.804 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+04-22 09:46:28.805 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+04-22 09:46:28.808 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+04-22 09:46:28.808 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+04-22 09:46:28.809 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+04-22 09:46:28.813 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+04-22 09:46:28.831 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+04-22 09:46:28.837 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+04-22 09:46:28.839 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+04-22 09:46:28.840 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+04-22 09:46:28.854 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+04-22 09:46:28.854 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+04-22 09:46:28.854 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+04-22 09:46:28.855 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+04-22 09:46:28.855 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+04-22 09:46:28.856 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+04-22 09:46:28.857 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+04-22 09:46:28.857 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+04-22 09:46:28.857 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+04-22 09:46:28.858 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+04-22 09:46:28.859 10902 10998 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCPictureViewManager
+04-22 09:46:28.899 10902 10998 D SoLoader: About to load: libyoga.so
+04-22 09:46:28.900 10902 10998 D SoLoader: libyoga.so not found on /data/data/com.wdiodemoapp/lib-main
+04-22 09:46:28.900 10902 10998 D SoLoader: libyoga.so found on /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86
+04-22 09:46:28.900 10902 10998 D SoLoader: Not resolving dependencies for libyoga.so
+04-22 09:46:28.906 10902 10998 D SoLoader: Loaded: libyoga.so
+04-22 09:46:28.928 10902 10902 I DetoxRNLoading: Got new RN-context async'ly through listener
+04-22 09:46:28.928 10902 10996 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native.
+04-22 09:46:28.953 10902 10998 D SoLoader: init exiting
+04-22 09:46:29.023 10902 10998 W com.wdiodemoap: Accessing hidden method Landroid/os/MessageQueue;->next()Landroid/os/Message; (greylist, reflection, allowed)
+04-22 09:46:29.024 10902 10998 W com.wdiodemoap: Accessing hidden field Landroid/os/MessageQueue;->mMessages:Landroid/os/Message; (greylist, reflection, allowed)
+04-22 09:46:29.024 10902 10998 W com.wdiodemoap: Accessing hidden method Landroid/os/Message;->recycleUnchecked()V (greylist, reflection, allowed)
+04-22 09:46:29.425 10902 10997 W ReactNativeJS: Accessing view manager configs directly off UIManager via UIManager['getConstants'] is no longer supported. Use UIManager.getViewManagerConfig('getConstants') instead.
+04-22 09:46:29.671 10902 10997 I ReactNativeJS: Running application "wdioDemoApp" with appParams: {"rootTag":1}. __DEV__ === true, development-level warning are ON, performance optimizations are OFF
+04-22 09:46:29.708 10902 10902 W com.wdiodemoap: Accessing hidden field Landroid/view/View;->mAccessibilityDelegate:Landroid/view/View$AccessibilityDelegate; (greylist, reflection, allowed)
+04-22 09:46:29.803 10902 10902 W com.wdiodemoap: Accessing hidden field Landroid/widget/ScrollView;->mScroller:Landroid/widget/OverScroller; (greylist, reflection, allowed)
+04-22 09:46:29.895 10902 10997 W ReactNativeJS: Warning: componentWillMount is deprecated and will be removed in the next major version. Use componentDidMount instead. As a temporary workaround, you can rename to UNSAFE_componentWillMount.
+04-22 09:46:29.895 10902 10997 W ReactNativeJS: 
+04-22 09:46:29.895 10902 10997 W ReactNativeJS: Please update the following components: AnimatedComponent
+04-22 09:46:29.895 10902 10997 W ReactNativeJS: 
+04-22 09:46:29.895 10902 10997 W ReactNativeJS: Learn more about this warning here:
+04-22 09:46:29.895 10902 10997 W ReactNativeJS: https://fb.me/react-async-component-lifecycle-hooks
+04-22 09:46:30.048 10902 10996 I WebSocketClient: At connectToServer
+04-22 09:46:30.068 10902 11004 I WebSocketClient: At onOpen
+04-22 09:46:30.068 10902 11004 I WebSocketClient: At sendAction
+04-22 09:46:30.069 10902 11004 D WebSocketClient: Detox Action Sent: login
+04-22 09:46:30.169 10902 10902 D EventInjectionStrategy: Creating injection strategy with input manager.
+04-22 09:46:30.169 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+04-22 09:46:30.170 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+04-22 09:46:30.171 10902 10902 W com.wdiodemoap: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+04-22 09:46:30.205 10902 11010 D SoLoader: About to load: libimagepipeline.so
+04-22 09:46:30.205 10902 11010 D SoLoader: libimagepipeline.so not found on /data/data/com.wdiodemoapp/lib-main
+04-22 09:46:30.205 10902 11010 D SoLoader: libimagepipeline.so found on /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86
+04-22 09:46:30.205 10902 11010 D SoLoader: Not resolving dependencies for libimagepipeline.so
+04-22 09:46:30.209 10902 11010 D SoLoader: Loaded: libimagepipeline.so
+04-22 09:46:30.553 10902 11004 I WebSocketClient: At sendAction
+04-22 09:46:30.555 10902 11004 D WebSocketClient: Detox Action Sent: ready
+04-22 09:46:30.562 10902 11004 I WebSocketClient: At onMessage
+04-22 09:46:30.562 10902 11004 I WebSocketClient: At receiveAction
+04-22 09:46:30.562 10902 11004 D WebSocketClient: Detox Action Received: loginSuccess
+04-22 09:46:30.562 10902 11004 I DetoxManager: onAction: type: loginSuccess params: {"role":"testee","sessionId":"bcf3deac-a2b5-75cf-06fd-f38868c7e5d1"}

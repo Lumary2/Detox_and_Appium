@@ -1,0 +1,87 @@
+{
+  "name": "wdio-native-demo-app",
+  "version": "0.3.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "lint": "eslint .",
+    "clean": "react-native-clean-project",
+    "prepush": "npm run lint",
+    "clear.cache": "watchman watch-del-all && rm -rf $TMPDIR/react-* && rm -rf $TMPDIR/metro* && rm -rf $TMPDIR/haste-*",
+    "android.clear.build": "yarn clear.cache && rm -rf ./android/app/build",
+    "android.release": "yarn android.clear.build && cd android && ./gradlew assembleRelease",
+    "ios.clear.build": "yarn clear.cache && rm -rf ./ios/build/wdioDemoApp/Build/Products/Release-iphonesimulator",
+    "ios.sim.release": "yarn ios.clear.build && react-native run-ios --configuration Release",
+    "postinstall": "npx jetify"
+  },
+  "dependencies": {
+    "@tele2/react-native-select-input": "^1.1.0",
+    "i18n-js": "^3.3.0",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-elements": "^1.2.0",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-image-zoom-viewer": "^2.2.27",
+    "react-native-localize": "^1.2.0",
+    "react-native-reanimated": "^1.2.0",
+    "react-native-screens": "^2.0.0-alpha.3",
+    "react-native-snap-carousel": "^3.8.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-webview": "^7.0.5",
+    "react-navigation": "^4.0.5",
+    "react-navigation-tabs": "^2.5.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/runtime": "^7.6.0",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "babel-jest": "^24.9.0",
+    "detox": "^16.4.0",
+    "eslint": "^6.4.0",
+    "husky": "^3.0.5",
+    "jest": "^24.9.0",
+    "jetifier": "^1.6.4",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-native-clean-project": "^3.2.4",
+    "react-test-renderer": "16.8.6"
+  },
+  "detox": {
+    "configurations": {
+      "android.emu.debug": {
+        "binaryPath": "android/app/build/outputs/apk/debug/app-debug.apk",
+        "build": "cd android && ./gradlew assembleDebug assembleAndroidTest -DtestBuildType=debug && cd ..",
+        "type": "android.emulator",
+        "device": {
+          "avdName": "Pixel_API_29"
+        }
+      },
+      "android.emu.release": {
+        "binaryPath": "android/app/build/outputs/apk/release/app-release.apk",
+        "build": "cd android && ./gradlew assembleRelease assembleAndroidTest -DtestBuildType=release && cd ..",
+        "type": "android.emulator",
+        "device": {
+          "avdName": "Pixel_API_29"
+        }
+      },
+      "ios.sim.debug": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/wdioDemoApp.app",
+        "build": "xcodebuild -workspace ios/wdioDemoApp.xcworkspace -scheme wdioDemoApp -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+        "type": "ios.simulator",
+        "device": {
+          "type": "iPhone 11"
+        }
+      },
+      "test-runner": "jest",
+      "runner-config": "e2e/config.json"
+    },
+    "jest": {
+      "preset": "react-native"
+    },
+    "husky": {
+      "hooks": {
+        "pre-push": "yarn lint"
+      }
+    },
+    "test-runner": "jest"
+  }
+}

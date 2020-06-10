@@ -1,0 +1,3 @@
+detox[2649] INFO:  [DetoxServer.js] server listening on localhost:52411...
+detox[2649] INFO:  [1m[37mBacknavigation and app in app test: [39m[22m[90mshould be able to open app inside of app and navigate backwards[39m
+detox[2649] INFO:  [1m[37mBacknavigation and app in app test: [39m[22m[90mshould be able to open app inside of app and navigate backwards[39m[90m [[32mOK[90m][39m

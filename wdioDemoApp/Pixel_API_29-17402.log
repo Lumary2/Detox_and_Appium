@@ -1,0 +1,21 @@
+emulator: autoconfig: -skin pixel_silver
+emulator: autoconfig: -skindir /Users/anjabender/Library/Android/sdk/skins/
+emulator: autoconfig: -kernel /Users/anjabender/Library/Android/sdk/system-images/android-29/google_apis_playstore/x86//kernel-ranchu-64
+emulator: Target arch = 'x86'
+emulator: Auto-config: -qemu -cpu qemu32
+emulator: Auto-detect: Kernel image requires new device naming scheme.
+emulator: Auto-detect: Kernel does not support YAFFS2 partitions.
+emulator: autoconfig: -ramdisk /Users/anjabender/Library/Android/sdk/system-images/android-29/google_apis_playstore/x86//ramdisk.img
+emulator: Using initial system image: /Users/anjabender/Library/Android/sdk/system-images/android-29/google_apis_playstore/x86//system.img
+emulator: Using initial vendor image: /Users/anjabender/Library/Android/sdk/system-images/android-29/google_apis_playstore/x86//vendor.img
+emulator: autoconfig: -data /Users/anjabender/.android/avd/Pixel_API_29.avd/userdata-qemu.img
+emulator: autoconfig: -initdata /Users/anjabender/.android/avd/Pixel_API_29.avd/userdata.img
+emulator: autoconfig: -cache /Users/anjabender/.android/avd/Pixel_API_29.avd/cache.img
+emulator: autoconfig: -sdcard /Users/anjabender/.android/avd/Pixel_API_29.avd/sdcard.img
+emulator: Increasing RAM size to 2048MB
+emulator: VM heap size 228MB is below hardware specified minimum of 512MB,setting it to that value
+emulator: System image is read only
+emulator: Found 2 DNS servers: 10.10.70.14 10.10.70.25
+emulator: ERROR: Running multiple emulators with the same AVD is an experimental feature.
+Please use -read-only flag to enable this feature.
+

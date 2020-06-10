@@ -1,0 +1,155 @@
+--------- beginning of main
+04-22 09:46:30.048 10902 10996 I WebSocketClient: At connectToServer
+04-22 09:46:30.068 10902 11004 I WebSocketClient: At onOpen
+04-22 09:46:30.068 10902 11004 I WebSocketClient: At sendAction
+04-22 09:46:30.069 10902 11004 D WebSocketClient: Detox Action Sent: login
+04-22 09:46:30.169 10902 10902 D EventInjectionStrategy: Creating injection strategy with input manager.
+04-22 09:46:30.169 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/hardware/input/InputManager;->getInstance()Landroid/hardware/input/InputManager; (greylist, reflection, allowed)
+04-22 09:46:30.170 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/hardware/input/InputManager;->injectInputEvent(Landroid/view/InputEvent;I)Z (greylist, reflection, allowed)
+04-22 09:46:30.171 10902 10902 W com.wdiodemoap: Accessing hidden field Landroid/hardware/input/InputManager;->INJECT_INPUT_EVENT_MODE_WAIT_FOR_FINISH:I (greylist, reflection, allowed)
+04-22 09:46:30.205 10902 11010 D SoLoader: About to load: libimagepipeline.so
+04-22 09:46:30.205 10902 11010 D SoLoader: libimagepipeline.so not found on /data/data/com.wdiodemoapp/lib-main
+04-22 09:46:30.205 10902 11010 D SoLoader: libimagepipeline.so found on /data/app/com.wdiodemoapp-H2VBCxnzMTrL9ANmc9YJJg==/lib/x86
+04-22 09:46:30.205 10902 11010 D SoLoader: Not resolving dependencies for libimagepipeline.so
+04-22 09:46:30.209 10902 11010 D SoLoader: Loaded: libimagepipeline.so
+04-22 09:46:30.553 10902 11004 I WebSocketClient: At sendAction
+04-22 09:46:30.555 10902 11004 D WebSocketClient: Detox Action Sent: ready
+04-22 09:46:30.562 10902 11004 I WebSocketClient: At onMessage
+04-22 09:46:30.562 10902 11004 I WebSocketClient: At receiveAction
+04-22 09:46:30.562 10902 11004 D WebSocketClient: Detox Action Received: loginSuccess
+04-22 09:46:30.562 10902 11004 I DetoxManager: onAction: type: loginSuccess params: {"role":"testee","sessionId":"bcf3deac-a2b5-75cf-06fd-f38868c7e5d1"}
+04-22 09:46:30.612 10902 11004 I WebSocketClient: At onMessage
+04-22 09:46:30.612 10902 11004 I WebSocketClient: At receiveAction
+04-22 09:46:30.612 10902 11004 D WebSocketClient: Detox Action Received: reactNativeReload
+04-22 09:46:30.612 10902 11004 I DetoxManager: onAction: type: reactNativeReload params: {}
+04-22 09:46:30.627 10902 10996 I DetoxRNExt: Reloading React Native
+04-22 09:46:30.628 10902 10902 D ReactNative: ReactInstanceManager.recreateReactContextInBackgroundInner()
+04-22 09:46:30.630 10902 10902 D ReactNative: ReactInstanceManager.onJSBundleLoadedFromServer()
+04-22 09:46:30.630 10902 10902 D ReactNative: ReactInstanceManager.recreateReactContextInBackground()
+04-22 09:46:30.630 10902 10902 D ReactNative: ReactInstanceManager.runCreateReactContextOnNewThread()
+04-22 09:46:30.630 10902 10902 D ReactNative: ReactInstanceManager.tearDownReactContext()
+04-22 09:46:30.634 10902 10902 D ReactNative: CatalystInstanceImpl.destroy() start
+04-22 09:46:30.635 10902 10902 W unknown:ReactNative: Packager connection already open, nooping.
+04-22 09:46:30.645 10902 11022 D ReactNative: ReactInstanceManager.createReactContext()
+04-22 09:46:30.654 10902 11022 D ReactNative: Initializing React Xplat Bridge.
+04-22 09:46:30.665 10902 11022 D ReactNative: Initializing React Xplat Bridge before initializeBridge
+04-22 09:46:30.670 10902 10985 D ReactNative: CatalystInstanceImpl.destroy() end
+04-22 09:46:30.675 10902 11022 D ReactNative: Initializing React Xplat Bridge after initializeBridge
+04-22 09:46:30.675 10902 11022 D ReactNative: CatalystInstanceImpl.runJSBundle()
+04-22 09:46:30.675 10902 11024 D ReactNative: ReactInstanceManager.setupReactContext()
+04-22 09:46:30.676 10902 11024 D ReactNative: CatalystInstanceImpl.initialize()
+04-22 09:46:30.679 10902 10902 W unknown:ReactNative: Packager connection already open, nooping.
+04-22 09:46:30.680 10902 11024 D ReactNative: ReactInstanceManager.attachRootViewToInstance()
+04-22 09:46:30.681 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupViewManager
+04-22 09:46:30.682 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTGroupShadowNode
+04-22 09:46:30.682 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeViewManager
+04-22 09:46:30.682 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTShapeShadowNode
+04-22 09:46:30.683 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextViewManager
+04-22 09:46:30.683 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTTextShadowNode
+04-22 09:46:30.683 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.checkbox.ReactCheckBoxManager
+04-22 09:46:30.685 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.uimanager.LayoutShadowNode
+04-22 09:46:30.689 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDialogPickerManager
+04-22 09:46:30.689 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.drawer.ReactDrawerLayoutManager
+04-22 09:46:30.690 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.picker.ReactDropdownPickerManager
+04-22 09:46:30.690 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollViewManager
+04-22 09:46:30.692 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactHorizontalScrollContainerViewManager
+04-22 09:46:30.693 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ReactProgressBarViewManager
+04-22 09:46:30.693 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.progressbar.ProgressBarShadowNode
+04-22 09:46:30.694 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.scroll.ReactScrollViewManager
+04-22 09:46:30.696 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager
+04-22 09:46:30.696 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.slider.ReactSliderManager$ReactSliderShadowNode
+04-22 09:46:30.697 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager
+04-22 09:46:30.698 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.switchview.ReactSwitchManager$ReactSwitchShadowNode
+04-22 09:46:30.698 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.toolbar.ReactToolbarManager
+04-22 09:46:30.699 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager
+04-22 09:46:30.699 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewManager
+04-22 09:46:30.699 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.art.ARTSurfaceViewShadowNode
+04-22 09:46:30.700 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageViewManager
+04-22 09:46:30.700 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.frescosupport.FrescoBasedReactTextInlineImageShadowNode
+04-22 09:46:30.703 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.image.ReactImageManager
+04-22 09:46:30.704 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ReactModalHostManager
+04-22 09:46:30.704 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.modal.ModalHostShadowNode
+04-22 09:46:30.705 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextManager
+04-22 09:46:30.705 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactRawTextShadowNode
+04-22 09:46:30.705 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputManager
+04-22 09:46:30.709 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.textinput.ReactTextInputShadowNode
+04-22 09:46:30.712 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextViewManager
+04-22 09:46:30.712 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactTextShadowNode
+04-22 09:46:30.713 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.view.ReactViewManager
+04-22 09:46:30.714 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.viewpager.ReactViewPagerManager
+04-22 09:46:30.714 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextViewManager
+04-22 09:46:30.714 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.facebook.react.views.text.ReactVirtualTextShadowNode
+04-22 09:46:30.714 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerRootViewManager
+04-22 09:46:30.714 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.gesturehandler.react.RNGestureHandlerButtonViewManager
+04-22 09:46:30.715 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenContainerViewManager
+04-22 09:46:30.715 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenViewManager
+04-22 09:46:30.715 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackViewManager
+04-22 09:46:30.715 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderConfigViewManager
+04-22 09:46:30.716 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.swmansion.rnscreens.ScreenStackHeaderSubviewManager
+04-22 09:46:30.717 10902 11024 W unknown:ViewManagerPropertyUpdater: Could not find generated setter for class com.reactnativecommunity.webview.RNCPictureViewManager
+04-22 09:46:30.720 10902 10902 I DetoxRNLoading: Got new RN-context async'ly through listener
+04-22 09:46:30.721 10902 10996 I DetoxRNIdleRes: Setting up Espresso Idling Resources for React Native.
+04-22 09:46:31.194 10902 11023 W ReactNativeJS: Accessing view manager configs directly off UIManager via UIManager['getConstants'] is no longer supported. Use UIManager.getViewManagerConfig('getConstants') instead.
+04-22 09:46:31.412 10902 11023 I ReactNativeJS: Running application "wdioDemoApp" with appParams: {"rootTag":11}. __DEV__ === true, development-level warning are ON, performance optimizations are OFF
+04-22 09:46:31.636 10902 11023 W ReactNativeJS: Warning: componentWillMount is deprecated and will be removed in the next major version. Use componentDidMount instead. As a temporary workaround, you can rename to UNSAFE_componentWillMount.
+04-22 09:46:31.636 10902 11023 W ReactNativeJS: 
+04-22 09:46:31.636 10902 11023 W ReactNativeJS: Please update the following components: AnimatedComponent
+04-22 09:46:31.636 10902 11023 W ReactNativeJS: 
+04-22 09:46:31.636 10902 11023 W ReactNativeJS: Learn more about this warning here:
+04-22 09:46:31.636 10902 11023 W ReactNativeJS: https://fb.me/react-async-component-lifecycle-hooks
+04-22 09:46:31.728 10902 10996 I WebSocketClient: At sendAction
+04-22 09:46:31.728 10902 10996 D WebSocketClient: Detox Action Sent: ready
+04-22 09:46:31.732 10902 11004 I WebSocketClient: At onMessage
+04-22 09:46:31.732 10902 11004 I WebSocketClient: At receiveAction
+04-22 09:46:31.732 10902 11004 D WebSocketClient: Detox Action Received: invoke
+04-22 09:46:31.733 10902 11004 I DetoxManager: onAction: type: invoke params: {"target":{"type":"Class","value":"com.wix.detox.espresso.EspressoDetox"},"method":"perform","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"androidx.test.espresso.Espresso"},"method":"onView","args":[{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxMatcher"},"method":"matcherForTestId","args":["SMS"]}}]}},{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.espresso.DetoxViewActions"},"method":"click","args":[]}}]}
+04-22 09:46:31.748 10902 10996 D Detox   : class com.wix.detox.espresso.DetoxMatcher, matcherForTestId, [SMS]
+04-22 09:46:31.789 10902 10996 D Detox   : class androidx.test.espresso.Espresso, onView, [(with tag value: is "SMS" and view has effective visibility=VISIBLE)]
+04-22 09:46:31.789 10902 10996 D Detox   : class com.wix.detox.espresso.DetoxViewActions, click, []
+04-22 09:46:31.796 10902 10996 D Detox   : class com.wix.detox.espresso.EspressoDetox, perform, [androidx.test.espresso.ViewInteraction@f54f3d2, com.wix.detox.espresso.action.RNClickAction@fe1fca3]
+04-22 09:46:31.802 10902 10996 W com.wdiodemoap: Accessing hidden method Lsun/misc/Unsafe;->getUnsafe()Lsun/misc/Unsafe; (greylist,core-platform-api, linking, allowed)
+04-22 09:46:31.802 10902 10996 W com.wdiodemoap: Accessing hidden method Lsun/misc/Unsafe;->objectFieldOffset(Ljava/lang/reflect/Field;)J (greylist,core-platform-api, linking, allowed)
+04-22 09:46:31.802 10902 10996 W com.wdiodemoap: Accessing hidden method Lsun/misc/Unsafe;->compareAndSwapObject(Ljava/lang/Object;JLjava/lang/Object;Ljava/lang/Object;)Z (greylist, linking, allowed)
+04-22 09:46:31.802 10902 10996 W com.wdiodemoap: Accessing hidden method Lsun/misc/Unsafe;->putObject(Ljava/lang/Object;JLjava/lang/Object;)V (greylist, linking, allowed)
+04-22 09:46:31.913 10902 10902 I Detox   : UIManagerModule is busy.
+04-22 09:46:31.922 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/view/WindowManagerGlobal;->getInstance()Landroid/view/WindowManagerGlobal; (greylist, reflection, allowed)
+04-22 09:46:31.923 10902 10902 W com.wdiodemoap: Accessing hidden field Landroid/view/WindowManagerGlobal;->mViews:Ljava/util/ArrayList; (greylist, reflection, allowed)
+04-22 09:46:31.923 10902 10902 W com.wdiodemoap: Accessing hidden field Landroid/view/WindowManagerGlobal;->mParams:Ljava/util/ArrayList; (greylist, reflection, allowed)
+04-22 09:46:31.929 10902 10902 I ViewInteraction: Performing 'com.wix.detox.espresso.action.detoxsingletap@465485 click' action on view (with tag value: is "SMS" and view has effective visibility=VISIBLE)
+04-22 09:46:32.020 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: PAUSED
+04-22 09:46:32.020 10902 10902 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:32.020 10902 10902 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:32.285 10902 10902 W com.wdiodemoap: Accessing hidden method Landroid/view/ViewConfiguration;->getDoubleTapMinTime()I (greylist, reflection, allowed)
+04-22 09:46:32.323 10902 10996 I WebSocketClient: At sendAction
+04-22 09:46:32.325 10902 10996 D WebSocketClient: Detox Action Sent: invokeResult
+04-22 09:46:32.329 10902 11004 I WebSocketClient: At onMessage
+04-22 09:46:32.329 10902 11004 I WebSocketClient: At receiveAction
+04-22 09:46:32.329 10902 11004 D WebSocketClient: Detox Action Received: invoke
+04-22 09:46:32.330 10902 11004 I DetoxManager: onAction: type: invoke params: {"target":{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.uiautomator.UiAutomator"},"method":"uiDevice","args":[]}},"method":"pressBack","args":[]}
+04-22 09:46:32.330 10902 10996 D Detox   : class com.wix.detox.uiautomator.UiAutomator, uiDevice, []
+04-22 09:46:32.886 10902 10977 D EGL_emulation: eglMakeCurrent: 0xdf31a9c0: ver 3 0 (tinfo 0xdf30faf0)
+04-22 09:46:32.904 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: STOPPED
+04-22 09:46:32.904 10902 10902 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:32.904 10902 10902 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.056 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: RESTARTED
+04-22 09:46:33.056 10902 10902 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.056 10902 10902 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.065 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: STARTED
+04-22 09:46:33.065 10902 10902 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.065 10902 10902 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.073 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: RESUMED
+04-22 09:46:33.073 10902 10902 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.073 10902 10902 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.102 10902 10996 I WebSocketClient: At sendAction
+04-22 09:46:33.103 10902 10996 D WebSocketClient: Detox Action Sent: invokeResult
+04-22 09:46:33.110 10902 11004 I WebSocketClient: At onMessage
+04-22 09:46:33.110 10902 11004 I WebSocketClient: At receiveAction
+04-22 09:46:33.110 10902 11004 D WebSocketClient: Detox Action Received: invoke
+04-22 09:46:33.110 10902 11004 I DetoxManager: onAction: type: invoke params: {"target":{"type":"Invocation","value":{"target":{"type":"Class","value":"com.wix.detox.uiautomator.UiAutomator"},"method":"uiDevice","args":[]}},"method":"pressBack","args":[]}
+04-22 09:46:33.110 10902 10996 D Detox   : class com.wix.detox.uiautomator.UiAutomator, uiDevice, []
+04-22 09:46:33.111 10902 10977 D EGL_emulation: eglMakeCurrent: 0xdf31a9c0: ver 3 0 (tinfo 0xdf30faf0)
+04-22 09:46:33.797 10902 10902 D LifecycleMonitor: Lifecycle status change: com.wdiodemoapp.MainActivity@340d864 in: PAUSED
+04-22 09:46:33.798 10902 10902 D LifecycleMonitor: running callback: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.798 10902 10902 D LifecycleMonitor: callback completes: androidx.test.rule.ActivityTestRule$LifecycleCallback@e8c84e7
+04-22 09:46:33.948 10902 10996 I WebSocketClient: At sendAction
+04-22 09:46:33.948 10902 10996 D WebSocketClient: Detox Action Sent: invokeResult
