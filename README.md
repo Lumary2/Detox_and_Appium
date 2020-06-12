@@ -21,6 +21,7 @@ Running tests:
 or react-native run-android again.
 
 - The tests are in the folder /tests/specs
+- Note: the example app often uses this line as an identifier for UI-elements (e.g.): <Input {...testProperties('nameForUIelement')}/>. You can also instead define the testID and accessibilityLabel in the UI element like e.g. this: <Input  testID={'nameForUIelement'} accessibilityLabel={'nameForUIelement'}/>
 ---
 **WdioDemoAPP** contains example RN 60 app ([Github](https://github.com/webdriverio/native-demo-app/tree/8f734445db735e5f36d9fa22f1aebbec4c79afbd)) with Detox testing framework
 
