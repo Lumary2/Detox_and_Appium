@@ -1,7 +1,9 @@
 import TabBar from '../screenobjects/components/tab.bar';
 import LoginScreen from '../screenobjects/login.screen';
 import NativeAlert from '../helpers/NativeAlert';
-
+/*Note: the example app often uses this line as an identifier for UI-elements (e.g.): 
+<Input {...testProperties('nameForUIelement')}/>. You can also instead define the testID and accessibilityLabel
+in the UI element like e.g. this: <Input  testID={'nameForUIelement'} accessibilityLabel={'nameForUIelement'}/>*/
 describe('Backnavigation and app in app test', () => {
     beforeEach(() => {
         $('~Home').waitForDisplayed(20000);
